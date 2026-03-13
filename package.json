@@ -1,0 +1,22 @@
+{
+  "name": "discord-roleplay-bot",
+  "version": "1.0.0",
+  "description": "Interactive Discord roleplay game bot with button choices",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "nodemon bot.js"
+  },
+  "keywords": ["discord", "roleplay", "bot", "games"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.14.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
